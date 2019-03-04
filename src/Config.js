@@ -301,7 +301,8 @@ class Config {
   }
 
   get verifyEmailURL() {
-    return `${this.publicServerURL}/apps/${this.applicationId}/verify_email`;
+    return `${this.publicServerURL}/apps/config/verify_email`;
+    //return `${this.publicServerURL}/apps/${this.applicationId}/verify_email`;
   }
 
 }
